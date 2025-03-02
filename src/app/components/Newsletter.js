@@ -2,27 +2,27 @@ import Image from "next/image"
 
 export default function Newsletter() {
     return (
-        <div>
+        <div className="sm:-mt-80">
             {/* Newsletter Section */}
             <div className="relative max-w-4xl mx-auto my-32 text-center p-8 pb-56 rounded-xl">
 
 
 
                 {/* Gradient Border Effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FF896E] to-[#A49EFF] h-full rounded-lg p-[2px]">
+                <div className="absolute inset-0 bg-gradient-to-r from-[#FF896E] to-[#A49EFF] h-full rounded-lg p-[2px] mx-6 sm:mx-auto">
 
 
-                    <Image src="/stars.svg" width={120} height={120} alt="dino" className="absolute -top-10 -right-16" />
+                    <Image src="/stars.svg" width={120} height={120} alt="dino" className="absolute -top-10 -right-16 hidden sm:flex" />
 
 
                     {/* Inner Black Background */}
                     <div className="h-full w-full bg-[#131313] rounded-lg p-8">
 
-                        <h2 className="text-4xl font-bold bg-gradient-to-r from-[#FF896E] to-[#A49EFF] text-transparent bg-clip-text">
+                        <h2 className="text-2xl sm:text-4xl font-bold bg-gradient-to-r from-[#FF896E] to-[#A49EFF] text-transparent bg-clip-text">
                             Join the Newsletter 🎉
                         </h2>
 
-                        <p className="text-gray-300 mt-4 max-w-2xl mx-auto">
+                        <p className="text-gray-300 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
                             Never again miss another Hackathon, get notified of all upcoming hackathons happening in Melbourne. No spam.
                         </p>
 

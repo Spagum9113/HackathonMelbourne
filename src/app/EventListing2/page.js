@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function EventListing2() {
     return (
-        <div className="bg-[url('/bg1.png')] bg-cover bg-[position:50%_30%] min-h-screen text-white">
+        <div className="bg-[url('/bg1.png')] bg-cover bg-[position:50%_30%] min-h-screen text-white overflow-x-hidden">
             <Header />
 
 
@@ -14,7 +14,7 @@ export default function EventListing2() {
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
                 <h2 className="text-4xl font-bold">Atlassian X UNIHACK 2025</h2>
-                <p className="text-gray-400 mt-5 max-w-2xl">
+                <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
                     Join Atlassian X UNIHACK 2025 at Monash University for Australia’s top student hackathon. Build, Innovate, and Compete for Prizes! 🚀🎟️
                 </p>
             </section>
@@ -26,9 +26,9 @@ export default function EventListing2() {
 
 
                 {/* Image */}
-                <div className="flex flex-row gap-6 max-w-4xl w-full">
+                <div className="flex flex-col md:flex-row gap-6 max-w-4xl w-full">
 
-                    <div className="relative flex-1 border-2 border-white rounded-xl overflow-hidden">
+                    <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
                         <Image
                             src="/listing2.png"
                             alt="Event Image"
@@ -42,7 +42,7 @@ export default function EventListing2() {
 
 
                     {/* Quick Details */}
-                    <div className=" relative border-2 rounded-xl items-center overflow-hidden max-w-xs space-y-4 p-4">
+                    <div className=" relative border-2 rounded-xl items-center overflow-hidden mx-5 sm:mx-auto max-w-lg sm:max-w-xs space-y-4 p-4">
 
 
                         {/* Date */}
@@ -105,7 +105,7 @@ export default function EventListing2() {
             </section>
 
 
-            <section className="border-2 border-white rounded-xl max-w-4xl mx-auto p-5 mb-44">
+            <section className="border-2 border-white rounded-xl max-w-4xl sm:mx-auto p-5 -mb-20 sm:mb-96 mx-5">
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">

@@ -6,20 +6,65 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/EventListing1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/EventListing1/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/StartupEvents/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupEvents/page.js"
+    ],
+    "/PastEvents/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/PastEvents/page.js"
+    ],
+    "/ComingSoon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ComingSoon/page.js"
+    ],
+    "/ContactPage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ContactPage/page.js"
+    ],
+    "/EventListing1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/EventListing1/page.js"
+    ],
     "/EventListing2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/EventListing2/page.js"
+    ],
+    "/StartupListing1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing1/page.js"
+    ],
+    "/StartupListing2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing2/page.js"
+    ],
+    "/StartupListing3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing3/page.js"
+    ],
+    "/StartupListing4/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing4/page.js"
+    ],
+    "/StartupListing5/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing5/page.js"
     ]
   }
 }

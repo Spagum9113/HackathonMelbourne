@@ -38,7 +38,6 @@ export default function ContactPage() {
                 setSubmitted(true)
                 setFormData({ name: "", email: "", message: "" })
             } else {
-                // Handle non-200 responses
                 const data = await response.json()
                 setError(data.message || "An error occurred. Please try again.")
             }
@@ -50,11 +49,11 @@ export default function ContactPage() {
     }
 
     return (
-        <div className="bg-[url('/bg1.png')] bg-cover min-h-screen text-white">
+        <div className="bg-[url('/bg1.png')] bg-cover min-h-screen text-white overflow-x-hidden">
             <Header />
 
             {/* Intro Section */}
-            <section className="flex flex-col items-center text-center mt-16 pt-32">
+            <section className="flex flex-col items-center text-center mt-16 pt-32 px-4">
                 <h2 className="text-4xl font-bold">Contact Us</h2>
                 <p className="text-gray-400 mt-5 max-w-2xl">
                     Have questions or suggestions? Get in touch! Reach out to collaborate, ask about upcoming hackathons, or just say hi!
@@ -62,14 +61,13 @@ export default function ContactPage() {
             </section>
 
             {/* Form Section */}
-            <section className="flex justify-center py-36">
+            <section className="flex flex-col md:flex-row justify-center py-16 md:py-36 px-4 gap-10">
                 {submitted ? (
-                    <p>Thank you for your message!</p>
+                    <p className="text-center">Thank you for your message!</p>
                 ) : (
-                    <div className="flex flex-col md:flex-row gap-10">
+                    <div className="flex flex-col md:flex-row gap-10 w-full max-w-4xl mx-auto">
                         {/* Contact Form */}
-                        <form onSubmit={handleSubmit} className="border-2 border-white rounded-xl p-10 w-[600px]">
-                            {/* Name Input */}
+                        <form onSubmit={handleSubmit} className="border-2 border-white rounded-xl p-10 w-full md:w-[800px]">
                             <div className="mb-6">
                                 <label htmlFor="name" className="pb-2 block">Full Name *</label>
                                 <input
@@ -83,7 +81,6 @@ export default function ContactPage() {
                                 />
                             </div>
 
-                            {/* Email Input */}
                             <div className="mb-6">
                                 <label htmlFor="email" className="pb-2 block">E-mail *</label>
                                 <input
@@ -97,7 +94,6 @@ export default function ContactPage() {
                                 />
                             </div>
 
-                            {/* Message Input */}
                             <div className="mb-6">
                                 <label htmlFor="message" className="pb-2 block">Message *</label>
                                 <textarea
@@ -111,7 +107,6 @@ export default function ContactPage() {
                                 />
                             </div>
 
-                            {/* Error Message */}
                             {error && <p className="text-red-500 mb-4">{error}</p>}
 
                             <button
@@ -124,15 +119,15 @@ export default function ContactPage() {
                         </form>
 
                         {/* Social Media Links */}
-                        <div className="border-2 border-white rounded-xl p-6 flex flex-col items-center gap-14 w-32 justify-center">
+                        <div className="border-2 border-white rounded-xl p-6 flex flex-row md:flex-col items-center justify-center gap-10 w-full max-w-s md:max-w-44 mx-auto">
                             <a href="https://www.linkedin.com/in/ethan-lee-resume/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                                <Image src="/linkedin.svg" width={300} height={300} alt="LinkedIn icon" className="hover:scale-110 transition duration-300 ease-in-out" />
+                                <Image src="/linkedin.svg" width={60} height={60} alt="LinkedIn icon" className="hover:scale-110 transition duration-300 ease-in-out" />
                             </a>
                             <a href="https://x.com/ethan_leee9113" target="_blank" rel="noopener noreferrer" aria-label="X">
-                                <Image src="/x.svg" width={300} height={300} alt="X icon" className="hover:scale-110 transition duration-300 ease-in-out" />
+                                <Image src="/x.svg" width={60} height={60} alt="X icon" className="hover:scale-110 transition duration-300 ease-in-out" />
                             </a>
                             <a href="mailto:ethanlee9113@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
-                                <Image src="/mail.svg" width={300} height={300} alt="Email icon" className="hover:scale-110 transition duration-300 ease-in-out" />
+                                <Image src="/mail.svg" width={60} height={60} alt="Email icon" className="hover:scale-110 transition duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>

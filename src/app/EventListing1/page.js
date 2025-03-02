@@ -4,18 +4,19 @@ import Newsletter from "@/app/components/Newsletter"
 import Image from "next/image"
 
 
-export default function EventListing1() {
+export default function EventListing2() {
     return (
-        <div className="bg-[url('/bg1.png')] bg-cover bg-[position:50%_30%] min-h-screen text-white">
+        <div className="bg-[url('/bg1.png')] bg-cover bg-[position:50%_30%] min-h-screen text-white overflow-x-hidden">
             <Header />
 
 
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
-                <h2 className="text-4xl font-bold">MedHack: AI Hospital</h2>
-                <p className="text-gray-400 mt-5 max-w-2xl">
-                    MedHack 2025 is a hackathon where participants of all skill levels will build AI models to solve healthcare challenges in a simulated hospital.                </p>
+                <h2 className="text-4xl font-bold">CISSA x GMC 2025 Game Jam</h2>
+                <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
+                    Join CISSA x GMC 2025 Game Jam at Unimelb! 🎮 Build, compete, and level up your game dev skills! 🏆🚀
+                </p>
             </section>
 
 
@@ -24,31 +25,35 @@ export default function EventListing1() {
             <section className="flex justify-center pt-36 pb-5">
 
 
-                {/* Image */}
-                <div className="flex flex-row gap-6 max-w-4xl w-full">
 
-                    <div className="relative flex-1 border-2 border-white rounded-xl overflow-hidden">
+
+
+                {/* Image Section */}
+                <div className="flex flex-col md:flex-row gap-6 max-w-4xl w-full">
+
+                    <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
+
+                        {/* <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full mx-5 sm:mx-0 w-full sm:w-auto h-[500px] sm:h-full"> */}
+
                         <Image
                             src="/listing1.webp"
                             alt="Event Image"
                             fill
-                            className="object-cover rounded-lg"
+                            className="object-cover"
                         />
                     </div>
 
 
 
-
-
                     {/* Quick Details */}
-                    <div className=" relative border-2 rounded-xl items-center overflow-hidden max-w-xs space-y-4 p-4">
+                    <div className=" relative border-2 rounded-xl items-center overflow-hidden mx-5 sm:mx-auto max-w-lg sm:max-w-xs space-y-4 p-4">
 
 
                         {/* Date */}
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Sat, 15 Feb, 2pm - 17 Feb, 5pm
+                                Fri, 7 Mar, 6:30PM - Thurs, 13 Mar, 6PM
                             </p>
                         </div>
 
@@ -57,16 +62,16 @@ export default function EventListing1() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Woodside Building for Technology and Design, 20 Exhibition Walk, Clayton VIC
+                                Forum Theater, Arts West Building, Royal Parade, Parkville VIC 3052, Australia
                             </p>
                         </div>
 
 
                         {/* Open-To */}
                         <div className=" flex items-start space-x-3">
-                            <Image src="openToIcon.svg" width={30} height={30} alt="open to icon" />
+                            <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                AI Enthusiasts, Healthcare Professionals, Uni Students
+                                University Students
                             </p>
                         </div>
 
@@ -84,12 +89,12 @@ export default function EventListing1() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                $41.40
+                                $8
                             </p>
                         </div>
 
 
-                        <a href="https://www.med-hack.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://events.humanitix.com/cissa-x-gmc-2025-game-jam" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -104,11 +109,11 @@ export default function EventListing1() {
             </section>
 
 
-            <section className="border-2 border-white rounded-xl max-w-4xl mx-auto p-5 mb-44">
+            <section className="border-2 border-white rounded-xl max-w-4xl sm:mx-auto p-5 -mb-20 sm:mb-96 mx-5">
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        MedHack 2025 is an AI hackathon from February 15-17 in Clayton, Australia, where participants will develop AI models to solve healthcare challenges in a simulated hospital. Open to all skill levels, the event offers workshops, mentorship, and opportunities to win prizes, with tracks for both beginners and advanced participants.
+                        CISSA x GMC 2025 Game Jam is Unimelb’s ultimate game development challenge, bringing together creatives, coders, and innovators. Over a thrilling week, teams of 1-4 will design, develop, and showcase their games, with in-person collaboration, expert feedback, and exciting prizes up for grabs. Whether you're a beginner or an indie dev, it’s the perfect chance to level up your skills, compete, and connect with the game dev community! 🎮🚀
                     </p>
 
                 </div>

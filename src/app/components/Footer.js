@@ -9,11 +9,11 @@ export default function Footer() {
 
                 <div className="flex flex-col md:flex-row items-center justify-between py-6 max-w-4xl mx-auto border-t">
 
-                    <Link href="/">
+                    <Link href="/" className="hidden md:flex">
                         <Image src="/logo.svg" width={30} height={30} alt="logo" />
                     </Link>
 
-                    <p className="text-center">
+                    <p className="text-center px-8 text-sm pb-6 sm:text-base sm:pb-0 sm:px-6">
                         Copyright © Hackathon Melbourne | Made with ❤️ by Ethan | Support me at&nbsp;
                         <a href="https://buymeacoffee.com/ethanlee9113" target="blank" className="underline">
                             Buy Me a Coffee.

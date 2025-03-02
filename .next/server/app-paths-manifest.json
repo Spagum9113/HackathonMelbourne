@@ -1,5 +1,10 @@
 {
-  "/EventListing1/page": "app/EventListing1/page.js",
-  "/EventListing2/page": "app/EventListing2/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/StartupEvents/page": "app/StartupEvents/page.js",
+  "/StartupListing3/page": "app/StartupListing3/page.js",
+  "/StartupListing4/page": "app/StartupListing4/page.js",
+  "/StartupListing5/page": "app/StartupListing5/page.js",
+  "/PastEvents/page": "app/PastEvents/page.js",
+  "/ComingSoon/page": "app/ComingSoon/page.js",
+  "/ContactPage/page": "app/ContactPage/page.js"
 }
