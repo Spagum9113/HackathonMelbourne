@@ -68,6 +68,9 @@ export default function ContactPage() {
                     <div className="flex flex-col md:flex-row gap-10 w-full max-w-4xl mx-auto">
                         {/* Contact Form */}
                         <form onSubmit={handleSubmit} className="border-2 border-white rounded-xl p-10 w-full md:w-[800px]">
+
+
+                            {/* Name Field */}
                             <div className="mb-6">
                                 <label htmlFor="name" className="pb-2 block">Full Name *</label>
                                 <input
@@ -81,6 +84,8 @@ export default function ContactPage() {
                                 />
                             </div>
 
+
+                            {/* Email Field */}
                             <div className="mb-6">
                                 <label htmlFor="email" className="pb-2 block">E-mail *</label>
                                 <input
@@ -94,6 +99,8 @@ export default function ContactPage() {
                                 />
                             </div>
 
+
+                            {/* Message Field */}
                             <div className="mb-6">
                                 <label htmlFor="message" className="pb-2 block">Message *</label>
                                 <textarea

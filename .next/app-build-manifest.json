@@ -6,35 +6,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/StartupEvents/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/StartupEvents/page.js"
-    ],
-    "/StartupListing1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/StartupListing1/page.js"
-    ],
-    "/StartupListing2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/StartupListing2/page.js"
-    ],
-    "/StartupListing5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/StartupListing5/page.js"
-    ],
-    "/StartupListing3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/StartupListing3/page.js"
-    ],
-    "/ContactPage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/ContactPage/page.js"
+      "static/chunks/app/page.js"
     ]
   }
 }

@@ -1,8 +1,8 @@
-// File: /Users/spagum/Creative Cloud Files Personal Account ethanlee9113@gmail.com DB2AF82457DE6AF37F000101@AdobeID/Important Things/Programming Things/hackathon-melbourne/src/app/ContactPage/page.js
-import * as entry from '../../../../src/app/ContactPage/page.js'
+// File: /Users/spagum/Creative Cloud Files Personal Account ethanlee9113@gmail.com DB2AF82457DE6AF37F000101@AdobeID/Important Things/Programming Things/hackathon-melbourne/src/app/page.js
+import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/ContactPage/page.js')
+type TEntry = typeof import('../../../src/app/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
