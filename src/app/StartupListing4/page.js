@@ -30,7 +30,7 @@ export default function StartupListing4() {
                 {/* Image */}
                 <div className="flex flex-col md:flex-row gap-6 max-w-4xl w-full">
 
-                    <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
+                    <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
                             src="/leonardo_march.png"
                             alt="Event Image"

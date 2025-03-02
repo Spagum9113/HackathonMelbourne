@@ -1,10 +1,8 @@
 {
-  "/page": "app/page.js",
   "/StartupEvents/page": "app/StartupEvents/page.js",
-  "/StartupListing3/page": "app/StartupListing3/page.js",
-  "/StartupListing4/page": "app/StartupListing4/page.js",
+  "/StartupListing1/page": "app/StartupListing1/page.js",
+  "/StartupListing2/page": "app/StartupListing2/page.js",
   "/StartupListing5/page": "app/StartupListing5/page.js",
-  "/PastEvents/page": "app/PastEvents/page.js",
-  "/ComingSoon/page": "app/ComingSoon/page.js",
+  "/StartupListing3/page": "app/StartupListing3/page.js",
   "/ContactPage/page": "app/ContactPage/page.js"
 }

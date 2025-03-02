@@ -22,7 +22,7 @@ export default function StartupListing1() {
 
 
             {/* Image & Quick Details Box */}
-            <section className="flex justify-center pt-16sm:pt-36 pb-5">
+            <section className="flex justify-center pt-16 sm:pt-36 pb-5">
 
 
                 {/* Image */}
