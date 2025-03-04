@@ -13,7 +13,7 @@ export default function EventListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
-                <h2 className="text-4xl font-bold">Atlassian X UNIHACK 2025</h2>
+                <h2 className="text-4xl font-bold">UNIHACK 2025</h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
                     Join Atlassian X UNIHACK 2025 at Monash University for Australia’s top student hackathon. Build, Innovate, and Compete for Prizes! 🚀🎟️
                 </p>

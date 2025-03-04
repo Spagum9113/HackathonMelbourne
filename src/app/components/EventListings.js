@@ -53,7 +53,7 @@ export default function EventListing() {
                             <Image src="/listing2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">Atlassian X UNIHACK 2025
+                                <h3 className="mb-1 text-lg font-bold">UNIHACK 2025
                                     ‎ ‎
                                 </h3>
                                 <p className="text-gray-400 text-sm">Fri, Mar 14, 18:00 PM</p>
