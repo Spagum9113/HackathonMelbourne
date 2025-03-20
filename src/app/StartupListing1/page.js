@@ -13,9 +13,11 @@ export default function StartupListing1() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold">VCi Labs Launch Night</h2>
+                <h2 className="text-4xl font-bold">Melbourne | AI Builder Co-working x S&C
+                </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Discover what makes us VCi.
+                    Melbourne’s original full-day AI co-working day, plus learning & networking!
+
                 </p>
             </section>
 
@@ -30,7 +32,7 @@ export default function StartupListing1() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
                         <Image
-                            src="/vci_launch_night.webp"
+                            src="/s&c1.avif"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -49,7 +51,8 @@ export default function StartupListing1() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Thurs, 6 Mar, 6PM - 8PM
+                                Fri, 21 Mar, 9AM - 5PM
+
                             </p>
                         </div>
 
@@ -58,7 +61,8 @@ export default function StartupListing1() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                University of Melbourne Parkville Campus, Hercus Theatre, Building 192
+                                Stone & Chalk Melbourne Startup Hub, 121 King St, Melbourne VIC 3000
+
                             </p>
                         </div>
 
@@ -90,7 +94,7 @@ export default function StartupListing1() {
                         </div>
 
 
-                        <a href="https://linktr.ee/vcilabs?fbclid=PAZXh0bgNhZW0CMTEAAaaAJYoHtThq2YrE47ZWYfhoYy4rxJs10SvXY_XuzZacovvjj_Gp8z0Rbw4_aem_zxbOxN1mWwCepIbDhTt1Fg" target="_blank" rel="noopener noreferrer">
+                        <a href="https://lu.ma/bzs1f45f?tk=DyCEPL">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -109,15 +113,7 @@ export default function StartupListing1() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join us on March 6th at the Hercus Theatre, University of Melbourne, for an exclusive look into VCi Labs. Connect with innovators, explore our vision, and be part of the future of venture and technology.
-                        <br />                        <br />
-
-
-                        📅  Date: March 6, 2025                         <br />
-
-                        🕕  Time: 6:00PM - 8:00PM                        <br />
-
-                        📍  Location: Hercus Theatre, Building 192, UniMelb Parkville Campus                        <br />
+                        Join us on March 21st at Stone & Chalk Melbourne Startup Hub for a full day of AI co-working with Build Club! Meet fellow builders, attend optional learning sessions including a special "Coffee & Learn" with Stef Cola, and pitch what you’re working on during Show & Tell. Stay for networking drinks afterwards!
 
 
                     </p>

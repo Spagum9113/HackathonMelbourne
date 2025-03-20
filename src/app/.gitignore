@@ -34,10 +34,45 @@ yarn-error.log*
 .env*
 .env.local
 
-
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Suggested additions below:
+
+# IDE and editor files
+.vscode/          # VS Code settings and extensions
+.idea/            # JetBrains IDEs (e.g., WebStorm, IntelliJ)
+*.sublime-*       # Sublime Text files
+
+# OS-specific files
+Thumbs.db         # Windows thumbnail cache
+
+# Linting and formatting
+.eslintcache      # ESLint cache
+.prettierignore   # Prettier ignore file (if not committed)
+
+# Package manager lockfiles (optional, depending on preference)
+/package-lock.json  # npm lockfile
+/yarn.lock         # Yarn lockfile
+/pnpm-lock.yaml    # pnpm lockfile
+
+# Build tools and caches
+/dist             # Common output directory for builds
+/cache            # Generic cache folder (e.g., used by some tools)
+
+# Testing frameworks (if applicable)
+/cypress          # Cypress testing artifacts
+/playwright       # Playwright testing artifacts
+*.spec.*          # Test files (if you don’t want them tracked)
+
+# Mac-specific (additional)
+/*.DS_Store       # Catch DS_Store in subdirectories
+Icon?             # Custom Finder icons
+
+# Logs
+/logs             # Generic logs folder
+*.log             # Any other log files

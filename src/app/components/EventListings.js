@@ -26,19 +26,18 @@ export default function EventListing() {
 
 
 
-                {/* Listings Grid */}
-
+                {/* Listing 1 */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto max-w-4xl ">
 
                     {/* Listing 1 */}
                     <a href="/EventListing1" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/listing1.webp" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/Screenshot 2025-03-21 at 3.53.41 am.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">CISSA x GMC 2025 Game Jam</h3>
-                                <p className="text-gray-400 text-sm">Fri, Mar 7, 6:00 PM</p>
-                                <p className="text-gray-400 text-sm">Arts West Building (Building 148)</p>
+                                <h3 className="mb-1 text-lg font-bold">CCA x Mobilise Hackathon</h3>
+                                <p className="text-gray-400 text-sm">Thu, Mar 27, 6:00 PM</p>
+                                <p className="text-gray-400 text-sm">Monash University LTB G31</p>
                             </div>
 
 
@@ -50,14 +49,19 @@ export default function EventListing() {
                     {/* Listing 2 */}
                     <a href="/EventListing2" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/listing2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/hackiethon.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">UNIHACK 2025
+                                <h3 className="mb-1 text-lg font-bold">Hackiethon 2025
+
                                     ‎ ‎
                                 </h3>
-                                <p className="text-gray-400 text-sm">Fri, Mar 14, 18:00 PM</p>
-                                <p className="text-gray-400 text-sm">Monash University Clayton Campus</p>
+                                <p className="text-gray-400 text-sm">Fri, Mar 28, 6:00 PM
+
+                                </p>
+                                <p className="text-gray-400 text-sm">Arts West, University of Melbourne (Kathleen Fitzpatrick Theatre)
+
+                                </p>
                             </div>
 
 
@@ -67,56 +71,26 @@ export default function EventListing() {
 
 
                     {/* Listing 3 */}
-                    {/* <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                        <Image src="/listingPlaceholder.jpg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                    <a href="/EventListing3" target="_blank" rel="noopener noreferrer">
+                        <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
+                            <Image src="/prosperity3.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
-                        <div className=" p-5 ">
-                            <h3 className="mb-1 text-lg font-bold">Coming Soon</h3>
-                            <p className="text-gray-400 text-sm">._.</p>
-                            <p className="text-gray-400 text-sm">._.</p>
+                            <div className=" p-5 ">
+                                <h3 className="mb-1 text-lg font-bold">Prosperity Trading Challenge
+
+                                    ‎ ‎
+                                </h3>
+                                <p className="text-gray-400 text-sm">Mon, Apr 7, 2025
+
+                                </p>
+                                <p className="text-gray-400 text-sm">Online (Remote)
+
+                                </p>
+                            </div>
+
+
                         </div>
-                    </div> */}
-
-
-
-                    {/* Listing 4 */}
-                    {/* <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                        <Image src="/listingPlaceholder.jpg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
-
-                        <div className=" p-5 ">
-                            <h3 className="mb-1 text-lg font-bold">Coming Soon</h3>
-                            <p className="text-gray-400 text-sm">:3</p>
-                            <p className="text-gray-400 text-sm">:3</p>
-                        </div>
-                    </div> */}
-
-
-
-                    {/* Listing 5 */}
-                    {/* <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                        <Image src="/listingPlaceholder.jpg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
-
-                        <div className=" p-5 ">
-                            <h3 className="mb-1 text-lg font-bold">Coming Soon</h3>
-                            <p className="text-gray-400 text-sm">.-.</p>
-                            <p className="text-gray-400 text-sm">.-.</p>
-                        </div>
-                    </div> */}
-
-
-
-                    {/* Listing 6 */}
-                    {/* <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                        <Image src="/listingPlaceholder.jpg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
-
-                        <div className=" p-5 ">
-                            <h3 className="mb-1 text-lg font-bold">Coming Soon</h3>
-                            <p className="text-gray-400 text-sm">:0</p>
-                            <p className="text-gray-400 text-sm">:0</p>
-                        </div>
-                    </div> */}
-
-
+                    </a>
 
 
 

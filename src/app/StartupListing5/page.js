@@ -13,9 +13,11 @@ export default function StartupListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold mx-5">Melbourne | StartSpace x Build Club & MLAI <br /> Monthly Saturday Co-working Day</h2>
+                <h2 className="text-4xl font-bold mx-5">Digitalization of Qualitative Data Collection Workshop
+                </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Join Melbourne’s top AI communities for a day of building, networking, and co-working at StartSpace! 🚀🤖
+                    Hands-on Workshop with Dr. Jose Berengueres
+
                 </p>
             </section>
 
@@ -30,7 +32,7 @@ export default function StartupListing2() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/bc_monthly_march.png"
+                            src="/sociology.jpeg"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -49,7 +51,8 @@ export default function StartupListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Sat, 5 Apr, 10AM - 5PM
+                                Thu, 27 Mar, 12PM - 1PM
+
                             </p>
                         </div>
 
@@ -58,7 +61,8 @@ export default function StartupListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                State Library Victoria
+                                Linkway, Level 4, Meeting Room, University of Melbourne, Parkville Campus
+
                             </p>
                         </div>
 
@@ -90,7 +94,7 @@ export default function StartupListing2() {
                         </div>
 
 
-                        <a href="https://lu.ma/v99mxxjz" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/events/7308270290822692865/about/" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -109,7 +113,8 @@ export default function StartupListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join Melbourne’s largest AI communities for a day of building, networking, and co-working at StartSpace, State Library Victoria! Whether you're working on an AI project, showcasing your work, or just looking to connect with like-minded innovators, this event is the perfect place to collaborate, learn, and get inspired! 🚀🤖
+                        Join Dr. Jose Berengueres from KTH, Sweden, for a hands-on workshop on digitalizing qualitative research using the QualNotes app. Learn to manage interview guides, record interviews, and create field-based maps—all within the app. Gain practical skills to improve your research's efficiency and impact.
+
 
 
 

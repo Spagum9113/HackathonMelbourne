@@ -13,9 +13,11 @@ export default function StartupListing4() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold">A Fireside Chat with Gen AI Unicorn: Leonardo.ai</h2>
+                <h2 className="text-4xl font-bold">VCi Labs x Startup Link: Spicy Startup Trivia
+                </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Join MLAI AUS for an exclusive fireside chat with Leonardo.ai’s co-founder, diving into their journey from a passion project to a unicorn acquired by Canva, and uncover insights on scaling AI startups. 🚀🔥
+                    Test your startup knowledge & spice tolerance 🌶️🍜
+
 
 
                 </p>
@@ -32,7 +34,7 @@ export default function StartupListing4() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/leonardo_march.png"
+                            src="/trivia1.jpeg"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +53,8 @@ export default function StartupListing4() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Wed, 19 Mar, 6PM - 7:30PM
+                                Wed, 26 Mar, 6:15PM - 8:00PM
+
                             </p>
                         </div>
 
@@ -60,7 +63,8 @@ export default function StartupListing4() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                TBA, Collingwood VIC
+                                The Malaysian Theatre, Glyn Davis Building, UniMelb Parkville Campus
+
                             </p>
                         </div>
 
@@ -87,12 +91,12 @@ export default function StartupListing4() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                FREE (Limited Spots)
+                                FREE
                             </p>
                         </div>
 
 
-                        <a href="https://lu.ma/sy66zur8?tk=R5Nnwx" target="_blank" rel="noopener noreferrer">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScT-5bhkl1vu2P_dIz7-7cAflrHjYR5dIpXokvQPhG2gAgI1g/viewform" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -111,16 +115,11 @@ export default function StartupListing4() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join MLAI AUS for a fireside chat with Leonardo.ai’s co-founder, exploring their journey from a passion project to a unicorn acquired by Canva. Gain exclusive insights on scaling AI startups, product growth, and building a global user base. 🚀🔥
-                        <br /><br />
+                        Join us for a fun and lighthearted evening at the Spicy Startup Trivia hosted by VCi Labs and Startup Link! Answer startup-related trivia questions—but if you miss one, your team will face the heat with spicy noodles 🌶️🍜. Correct answers? Enjoy a sip of milk to cool down 🥛.
 
-                        Catering will be provided, courtesy of<a href="https://leonardo.ai/" target="_blank" className="text-blue-500 underline px-2 rounded transition"
-                        >Leonardo.ai</a>
-                        <br /><br />
-
-
-                        Hosted by<a href="https://www.mlai.au/" target="_blank" className="text-blue-500 underline px-2 rounded transition"
-                        >MLAI AUS</a>
+                        <br />
+                        <br />
+                        No startup knowledge required—just bring your friends and your appetite for fun! 🤩
 
 
 

@@ -13,9 +13,9 @@ export default function EventListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
-                <h2 className="text-4xl font-bold">CISSA x GMC 2025 Game Jam</h2>
+                <h2 className="text-4xl font-bold">CCA x Mobilise Hackathon</h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Join CISSA x GMC 2025 Game Jam at Unimelb! 🎮 Build, compete, and level up your game dev skills! 🏆🚀
+                    A weekend of innovation where technology meets social impact 🧡
                 </p>
             </section>
 
@@ -33,10 +33,8 @@ export default function EventListing2() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
 
-                        {/* <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full mx-5 sm:mx-0 w-full sm:w-auto h-[500px] sm:h-full"> */}
-
                         <Image
-                            src="/listing1.webp"
+                            src="/ccahackathon.avif"
                             alt="Event Image"
                             fill
                             className="object-cover"
@@ -53,7 +51,7 @@ export default function EventListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Fri, 7 Mar, 6:30PM - Thurs, 13 Mar, 6PM
+                                Thu, 27 Mar, 6PM – Sun, 30 Mar, 2:30PM
                             </p>
                         </div>
 
@@ -62,7 +60,7 @@ export default function EventListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Forum Theater, Arts West Building, Royal Parade, Parkville VIC 3052, Australia
+                                Monash University LTB G31
                             </p>
                         </div>
 
@@ -80,7 +78,7 @@ export default function EventListing2() {
                         <div className=" flex items-center space-x-3">
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
-                                In-Person
+                                Hybrid (Online & In-Person)
                             </p>
                         </div>
 
@@ -89,13 +87,13 @@ export default function EventListing2() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                $8
+                                FREE
                             </p>
                         </div>
 
 
-                        <a href="https://events.humanitix.com/cissa-x-gmc-2025-game-jam" target="_blank" rel="noopener noreferrer">
-                            <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
+                        <a href="https://www.eventbrite.com.au/e/cca-x-mobilise-hackathon-tickets-1268413832919?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer">
+                            <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-14 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
                         </a>
@@ -113,9 +111,8 @@ export default function EventListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        CISSA x GMC 2025 Game Jam is Unimelb’s ultimate game development challenge, bringing together creatives, coders, and innovators. Over a thrilling week, teams of 1-4 will design, develop, and showcase their games, with in-person collaboration, expert feedback, and exciting prizes up for grabs. Whether you're a beginner or an indie dev, it’s the perfect chance to level up your skills, compete, and connect with the game dev community! 🎮🚀
+                        Across 48 hours, teams will develop tech-driven solutions to address homelessness while gaining hands-on experience in problem-solving, collaboration, and solution design. With mentor guidance, industry resources, and engaging workshops, this hackathon is open to all university students with no prior experience required. Team sizes are 3-5, but you can also sign up individually and be matched to a team. It’s the perfect opportunity to innovate, learn, and create real-world change while competing for exciting prizes! 🚀💡
                     </p>
-
                 </div>
             </section>
 

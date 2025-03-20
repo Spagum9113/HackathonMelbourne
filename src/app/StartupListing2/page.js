@@ -13,9 +13,11 @@ export default function StartupListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl mx-5 font-bold">Melbourne | StartSpace x Build Club & MLAI <br /> Monthly Saturday Co-working Day</h2>
+                <h2 className="text-4xl mx-5 font-bold">Female Founder Pitch Night
+                </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Join Melbourne’s top AI communities for a day of building, networking, and co-working at StartSpace! 🚀🤖
+                    Celebrate female founders and innovation in Melbourne’s startup scene!
+
                 </p>
             </section>
 
@@ -30,7 +32,7 @@ export default function StartupListing2() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/bc_monthly_march.png"
+                            src="/femalefounders2.png"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -49,7 +51,8 @@ export default function StartupListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Sat, 8 Mar, 10AM - 5PM
+                                Tue, 25 Mar, 6PM - 8:30PM
+
                             </p>
                         </div>
 
@@ -58,7 +61,8 @@ export default function StartupListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                State Library Victoria
+                                The Commons Gipps St, 38 Gipps St, Collingwood VIC 3066
+
                             </p>
                         </div>
 
@@ -85,12 +89,14 @@ export default function StartupListing2() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                FREE
+                                From $20
+
+
                             </p>
                         </div>
 
 
-                        <a href="https://lu.ma/nrnjsllx?tk=lkoyjB" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.eventbrite.com.au/e/female-founder-pitch-night-tickets-1082718994659?aff=ebdssbdestsearch" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -109,7 +115,8 @@ export default function StartupListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join Melbourne’s largest AI communities for a day of building, networking, and co-working at StartSpace, State Library Victoria! Whether you're working on an AI project, showcasing your work, or just looking to connect with like-minded innovators, this event is the perfect place to collaborate, learn, and get inspired! 🚀🤖
+                        Join The Startup Network’s Female Founder Pitch Night on March 25th for a celebration of Melbourne’s boldest female entrepreneurs. Network with founders, investors, and startup enthusiasts as four early-stage female founders take the stage to pitch their ventures. Vote for your favorite pitch and connect with the innovators shaping the future of the startup ecosystem.
+
 
 
 

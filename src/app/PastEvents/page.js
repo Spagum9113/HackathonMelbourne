@@ -22,7 +22,7 @@ export default function EventListing() {
                 {/* Title */}
                 <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center md:flex-row md:justify-between md:items-center md:text-left mb-6 border-2 rounded-xl p-6">
                     <div>
-                        <h3 className="text-2xl font-bold">Popular Hackathons</h3>
+                        <h3 className="text-2xl font-bold">Past Hackathons</h3>
                         <p className="text-gray-400">Melbourne</p>
                     </div>
 
@@ -41,6 +41,43 @@ export default function EventListing() {
 
 
                     {/* Listing 1 */}
+
+                    <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
+                        <Image src="/listing1.webp" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+
+                        <div className=" p-5 ">
+                            <h3 className="mb-1 text-lg font-bold">CISSA x GMC 2025 Game Jam</h3>
+                            <p className="text-gray-400 text-sm">Fri, Mar 7, 6:00 PM</p>
+                            <p className="text-gray-400 text-sm">Arts West Building (Building 148)</p>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    {/* Listing 2 */}
+
+                    <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
+                        <Image src="/listing2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+
+                        <div className=" p-5 ">
+                            <h3 className="mb-1 text-lg font-bold">UNIHACK 2025
+                                ‎ ‎
+                            </h3>
+                            <p className="text-gray-400 text-sm">Fri, Mar 14, 18:00 PM</p>
+                            <p className="text-gray-400 text-sm">Monash University Clayton Campus</p>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    {/* Listing 3 */}
                     <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                         <Image src="/medhack.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
