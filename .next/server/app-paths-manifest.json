@@ -1,8 +1,5 @@
 {
-  "/StartupEvents/page": "app/StartupEvents/page.js",
+  "/PastStartupEvents/page": "app/PastStartupEvents/page.js",
   "/page": "app/page.js",
-  "/StartupListing14/page": "app/StartupListing14/page.js",
-  "/EventListing2/page": "app/EventListing2/page.js",
-  "/StartupListing13/page": "app/StartupListing13/page.js",
-  "/StartupListing15/page": "app/StartupListing15/page.js"
+  "/StartupEvents/page": "app/StartupEvents/page.js"
 }
