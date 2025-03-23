@@ -41,23 +41,7 @@ export default function StartupEvents() {
 
 
 
-                    {/* Listing 1 */}
-                    <a href="/StartupListing1" target="_blank" rel="noopener noreferrer">
-                        <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/s&c1.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
-                            <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">Melbourne | AI Builder Co-working x S&C
-                                </h3>
-                                <p className="text-gray-400 text-sm">Fri, Mar 21, 9:00 AM - 5:00 PM
-
-                                </p>
-                                <p className="text-gray-400 text-sm">Stone & Chalk Melbourne Startup Hub</p>
-                            </div>
-
-
-                        </div>
-                    </a>
 
 
                     {/* Listing 2 */}
