@@ -29,7 +29,7 @@ export default function Header() {
                 {/* Newsletter Button */}
                 <a href="/#newsletter" className="hidden md:block">
                     <button className="bg-white text-black py-2 px-6 rounded-lg font-bold hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
-                        {"< Stay Updated >"}
+                        {"< Stay Updated />"}
                     </button>
                 </a>
 
