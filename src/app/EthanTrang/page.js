@@ -10,14 +10,14 @@ export default function EthanTrang() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-8 pt-20 md:mt-16 md:pt-32">
-                <h2 className="text-2xl font-bold md:text-4xl">Founders Unravelled: Ethan Trang</h2>
+                <h2 className="text-2xl font-bold md:text-4xl mx-10">Founders Unravelled: Ethan Trang</h2>
                 <p className="text-gray-400 mt-3 mx-4 text-sm md:mt-5 md:mx-5 md:text-base max-w-2xl">29th March 2025</p>
             </section>
 
             {/* Image & Quick Details Box */}
             <section className="flex justify-center pt-16 pb-6 w-full md:pt-36 md:pb-10">
                 <div className="flex flex-col gap-4 w-full max-w-4xl mx-4 md:mx-auto md:flex-row md:gap-6">
-                    <div className="relative border-2 border-white rounded-xl overflow-hidden min-h-[150px] md:min-h-[200px] lg:min-h-[400px] flex-1 md:flex-[2]">
+                    <div className="relative border-2 border-white rounded-xl overflow-hidden min-h-[300px] md:min-h-[200px] lg:min-h-[400px] flex-1 md:flex-[2]">
                         <Image
                             src="/ethan_trang_2.avif"
                             alt="Event Image"
@@ -25,7 +25,7 @@ export default function EthanTrang() {
                             className="object-cover rounded-lg filter brightness-100 hover:brightness-75 transition-all duration-200"
                         />
                     </div>
-                    <div className="relative border-2 border-white rounded-xl overflow-hidden min-h-[150px] md:min-h-[200px] lg:min-h-[400px] flex-1 md:flex-[2]">
+                    <div className="relative border-2 border-white rounded-xl overflow-hidden min-h-[300px] md:min-h-[200px] lg:min-h-[400px] flex-1 md:flex-[2]">
                         <Image
                             src="/ethan_trang.jpeg"
                             alt="Quick Details Image"
