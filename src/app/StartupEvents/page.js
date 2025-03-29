@@ -28,11 +28,11 @@ export default function StartupEvents() {
                         <p className="text-gray-400">Melbourne</p>
                     </div>
 
-                    <a href="/PastStartupEvents" className="mt-5 md:mt-0">
+                    {/* <a href="/PastStartupEvents" className="mt-5 md:mt-0">
                         <button className="text-black bg-white rounded-lg font-bold py-2 px-6 hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                             Past Events ‎ ➪
                         </button>
-                    </a>
+                    </a> */}
                 </div>
 
                 {/* Listings Grid */}
@@ -45,7 +45,7 @@ export default function StartupEvents() {
 
 
                     {/* Listing 2 */}
-                    <a href="/StartupListing2" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing2" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/femalefounders2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -66,11 +66,11 @@ export default function StartupEvents() {
                             </div>
 
                         </div>
-                    </a>
+                    </a> */}
 
 
                     {/* Listing 3 */}
-                    <a href="/StartupListing3" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing3" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/imctrading1.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -92,11 +92,11 @@ export default function StartupEvents() {
 
 
                         </div>
-                    </a>
+                    </a> */}
 
 
                     {/* Listing 4 */}
-                    <a href="/StartupListing4" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing4" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/trivia1.jpeg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -113,13 +113,13 @@ export default function StartupEvents() {
 
 
                         </div>
-                    </a>
+                    </a> */}
 
 
 
 
                     {/* Listing 5 */}
-                    <a href="/StartupListing5" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing5" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/sociology.jpeg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -140,10 +140,10 @@ export default function StartupEvents() {
                             </div>
 
                         </div>
-                    </a>
+                    </a> */}
 
                     {/* Listing 6 */}
-                    <a href="/StartupListing6" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing6" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/founderswalk.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -160,7 +160,7 @@ export default function StartupEvents() {
 
 
                         </div>
-                    </a>
+                    </a> */}
 
                     {/* Listing 7 */}
                     <a href="/StartupListing7" target="_blank" rel="noopener noreferrer">
@@ -318,7 +318,7 @@ export default function StartupEvents() {
 
 
                     {/* Listing 14 */}
-                    <a href="/StartupListing14" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing14" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/archi1.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -338,7 +338,7 @@ export default function StartupEvents() {
                                 </p>
                             </div>
                         </div>
-                    </a>
+                    </a> */}
 
 
 

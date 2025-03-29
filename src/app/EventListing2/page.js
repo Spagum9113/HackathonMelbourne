@@ -81,7 +81,7 @@ export default function EventListing2() {
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
                                 In-Person
-                            </p>
+                            </p>x
                         </div>
 
 

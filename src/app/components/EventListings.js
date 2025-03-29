@@ -29,7 +29,8 @@ export default function EventListing() {
                 {/* Listing 1 */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto max-w-4xl ">
 
-                    {/* Listing 1 */}
+                    {/*
+
                     <a href="/EventListing1" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/Screenshot 2025-03-21 at 3.53.41 am.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
@@ -44,10 +45,12 @@ export default function EventListing() {
                         </div>
                     </a>
 
+                    */}
+
 
 
                     {/* Listing 2 */}
-                    <a href="/EventListing2" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/EventListing2" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/hackiethon.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -60,6 +63,29 @@ export default function EventListing() {
 
                                 </p>
                                 <p className="text-gray-400 text-sm">Arts West, University of Melbourne (Kathleen Fitzpatrick Theatre)
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </a> */}
+
+                    {/* Listing 4 */}
+                    <a href="/EventListing4" target="_blank" rel="noopener noreferrer">
+                        <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
+                            <Image src="/aiagenthackathon.jpeg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+
+                            <div className=" p-5 ">
+                                <h3 className="mb-1 text-lg font-bold">AI Agent Beginners Hackathon
+
+
+                                    ‎ ‎
+                                </h3>
+                                <p className="text-gray-400 text-sm">Mon, Mar 31, 12:00 PM
+
+                                </p>
+                                <p className="text-gray-400 text-sm">Online (Remote)
 
                                 </p>
                             </div>
@@ -97,6 +123,6 @@ export default function EventListing() {
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

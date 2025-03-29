@@ -21,8 +21,9 @@ export default function Header() {
                 <div className="hidden md:flex space-x-14 font-bold pl-36">
                     <Link href="/#hackathons" className="hover:text-gray-400">Hackathons</Link>
                     <Link href="/StartupEvents" className="hover:text-gray-400">Startup Events</Link>
-                    <Link href="/ComingSoon" className="hover:text-gray-400">Map</Link>
+                    {/* <Link href="/ComingSoon" className="hover:text-gray-400">Map</Link> */}
                     <Link href="/ComingSoon" className="hover:text-gray-400">Calendar</Link>
+                    <Link href="/Blog" className="hover:text-gray-400">Blog</Link>
                     <Link href="/ContactPage" className="hover:text-gray-400">Contact</Link>
                 </div>
 
@@ -50,8 +51,9 @@ export default function Header() {
 
                         <Link href="/#hackathons" className="py-6" onClick={() => setIsOpen(false)}>Hackathons</Link>
                         <Link href="/StartupEvents" className="py-6" onClick={() => setIsOpen(false)}>Startup Events</Link>
-                        <Link href="/ComingSoon" className="py-6" onClick={() => setIsOpen(false)}>Map</Link>
+                        {/* <Link href="/ComingSoon" className="py-6" onClick={() => setIsOpen(false)}>Map</Link> */}
                         <Link href="/ComingSoon" className="py-6" onClick={() => setIsOpen(false)}>Calendar</Link>
+                        <Link href="/Blog" className="py-6" onClick={() => setIsOpen(false)}>Blog</Link>
                         <Link href="/ContactPage" className="py-6" onClick={() => setIsOpen(false)}>Contact</Link>
                     </div>
                 )}

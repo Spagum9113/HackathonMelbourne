@@ -11,6 +11,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/Blog/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Blog/page.js"
+    ],
     "/StartupEvents/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -20,6 +25,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/PastStartupEvents/page.js"
+    ],
+    "/EventListing4/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/EventListing4/page.js"
+    ],
+    "/StartupListing8/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing8/page.js"
+    ],
+    "/ContactPage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ContactPage/page.js"
+    ],
+    "/StartupListing2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/StartupListing2/page.js"
+    ],
+    "/EventListing3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/EventListing3/page.js"
+    ],
+    "/EthanTrang/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/EthanTrang/page.js"
     ]
   }
 }

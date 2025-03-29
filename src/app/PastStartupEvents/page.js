@@ -58,7 +58,7 @@ export default function PastStartupEvents() {
                     </div>
 
 
-                    {/* Listing 1 */}
+                    {/* Listing 1  */}
                     <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                         <Image src="/leonardo_march.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
