@@ -587,6 +587,10 @@ video {
 .z-50 {
   z-index: 50;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -603,9 +607,9 @@ video {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 .-mb-20 {
   margin-bottom: -5rem;
@@ -634,6 +638,9 @@ video {
 .mt-16 {
   margin-top: 4rem;
 }
+.mt-3 {
+  margin-top: 0.75rem;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -645,18 +652,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mt-3 {
-  margin-top: 0.75rem;
 }
 .block {
   display: block;
@@ -682,29 +677,14 @@ video {
 .h-full {
   height: 100%;
 }
-.h-64 {
-  height: 16rem;
-}
-.h-80 {
-  height: 20rem;
-}
-.h-\[100px\] {
-  height: 100px;
-}
-.h-\[500px\] {
-  height: 500px;
-}
-.h-96 {
-  height: 24rem;
-}
-.h-\[150px\] {
-  height: 150px;
+.min-h-\[150px\] {
+  min-height: 150px;
 }
 .min-h-screen {
   min-height: 100vh;
 }
-.min-h-\[150px\] {
-  min-height: 150px;
+.min-h-\[300px\] {
+  min-height: 300px;
 }
 .w-\[300\] {
   width: 300;
@@ -729,9 +709,6 @@ video {
 }
 .max-w-xs {
   max-width: 20rem;
-}
-.max-w-7xl {
-  max-width: 80rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -769,14 +746,14 @@ video {
 .gap-10 {
   gap: 2.5rem;
 }
-.gap-6 {
-  gap: 1.5rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 .gap-4 {
   gap: 1rem;
 }
-.gap-2 {
-  gap: 0.5rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 .space-x-14 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -939,10 +916,6 @@ video {
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -964,17 +937,14 @@ video {
 .pt-16 {
   padding-top: 4rem;
 }
+.pt-20 {
+  padding-top: 5rem;
+}
 .pt-32 {
   padding-top: 8rem;
 }
 .pt-36 {
   padding-top: 9rem;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-.pt-20 {
-  padding-top: 5rem;
 }
 .text-center {
   text-align: center;
@@ -1020,6 +990,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
@@ -1042,10 +1016,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-blue-400 {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
 }
 .underline {
   text-decoration-line: underline;
@@ -1193,24 +1163,12 @@ body {
     margin-top: 4rem;
   }
 
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .sm\:flex {
     display: flex;
   }
 
   .sm\:h-full {
     height: 100%;
-  }
-
-  .sm\:h-80 {
-    height: 20rem;
-  }
-
-  .sm\:h-\[400px\] {
-    height: 400px;
   }
 
   .sm\:w-\[550px\] {
@@ -1274,16 +1232,16 @@ body {
     margin-right: auto;
   }
 
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
   .md\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
   .md\:mb-5 {
     margin-bottom: 1.25rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:mt-16 {
@@ -1306,12 +1264,12 @@ body {
     display: none;
   }
 
-  .md\:h-\[200px\] {
-    height: 200px;
-  }
-
   .md\:min-h-\[200px\] {
     min-height: 200px;
+  }
+
+  .md\:min-h-\[400px\] {
+    min-height: 400px;
   }
 
   .md\:w-\[800px\] {
@@ -1320,10 +1278,6 @@ body {
 
   .md\:max-w-44 {
     max-width: 11rem;
-  }
-
-  .md\:flex-1 {
-    flex: 1 1 0%;
   }
 
   .md\:flex-\[2\] {
@@ -1388,11 +1342,6 @@ body {
     text-align: left;
   }
 
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1402,13 +1351,14 @@ body {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
-
-  .lg\:h-\[400px\] {
-    height: 400px;
-  }
 
   .lg\:min-h-\[400px\] {
     min-height: 400px;
