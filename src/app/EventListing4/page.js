@@ -13,10 +13,9 @@ export default function EventListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
-                <h2 className="text-4xl font-bold">Atlassian X UNIHACK 2025</h2>
+                <h2 className="text-4xl font-bold">Beginner-Friendly AI Agent Hackathon 2025</h2>
                 <p className="text-gray-400 mt-5 max-w-2xl">
-                    Join Atlassian X UNIHACK 2025 at Monash University for Australia’s top student hackathon. Build, Innovate, and Compete for Prizes! 🚀🎟️
-                </p>
+                    Kickstart your AI journey with RMIT’s Hackathon, no AI experience needed, just code and curiosity, build a project, win $600, prep for April 10th Bootcamp! 🚀🎟️                </p>
             </section>
 
 
@@ -30,7 +29,7 @@ export default function EventListing2() {
 
                     <div className="relative flex-1 border-2 border-white rounded-xl overflow-hidden">
                         <Image
-                            src="/listing2.png"
+                            src="/aiagenthackathon.jpeg"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -49,8 +48,7 @@ export default function EventListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Fri, 14 Mar, 6PM - Sun, 16 Mar, 6PM
-                            </p>
+                                Mon, 31 Mar - Mon, 7 Apr (Online)                            </p>
                         </div>
 
 
@@ -58,8 +56,7 @@ export default function EventListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Monash University Clayton Campus, Wellington Rd, Clayton VIC 3800
-                            </p>
+                                Online                     </p>
                         </div>
 
 
@@ -76,7 +73,7 @@ export default function EventListing2() {
                         <div className=" flex items-center space-x-3">
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
-                                In-Person
+                                Online (Remote)
                             </p>
                         </div>
 
@@ -90,7 +87,7 @@ export default function EventListing2() {
                         </div>
 
 
-                        <a href="https://www.unihack.net/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://ai-agent-beginners-hackathon.devpost.com/" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -105,15 +102,16 @@ export default function EventListing2() {
             </section>
 
 
-            <section className="border-2 border-white rounded-xl max-w-4xl mx-auto p-5 mb-44">
+            <section className="border-2 border-white rounded-xl max-w-4xl sm:mx-auto p-5 -mb-20 sm:mb-96 mx-5">
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Atlassian X UNIHACK 2025 is Australia’s premier student hackathon, bringing together innovators, coders, and creatives at Monash University. Over an intense three-day challenge, teams will brainstorm ideas, develop prototypes, and pitch to industry experts for a chance to win exciting prizes. Whether you're a beginner or a seasoned hacker, it's the perfect opportunity to collaborate, learn, and showcase your skills! 🚀
+                        The Beginner-Friendly AI Agent Hackathon by RMIT University lets you dive into AI with no prior experience, just code and curiosity, to build an AI project online, compete for $600 in prizes, and gear up for the Global AI Bootcamp on April 10th at Melbourne Microsoft Office. 🚀
                     </p>
 
                 </div>
             </section>
+
 
 
 

@@ -61,7 +61,7 @@ export default function EventListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Online (Remote)
+                                Online
 
                             </p>
                         </div>
@@ -80,7 +80,7 @@ export default function EventListing2() {
                         <div className=" flex items-center space-x-3">
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
-                                In-Person
+                                Online (Remote)
                             </p>
                         </div>
 
