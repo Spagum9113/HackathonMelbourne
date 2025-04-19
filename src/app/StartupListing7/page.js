@@ -13,10 +13,11 @@ export default function StartupListing7() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold mx-5">Ace the Case: Strategies and Presentation | B1 x Enactus
+                <h2 className="text-4xl font-bold mx-5">UoM to Uber to Unicorn w/ Rob Skillington
+
                 </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Level up your case competition game with consulting and VC insights.
+                    Hear the journey of Aussie-born Rob Skillington — from the University of Melbourne to Uber, and now co-founder of $1.6B startup Chronosphere. An intimate, behind-the-scenes session on startups, scaling, and building in Silicon Valley. 🚀🇦🇺
 
                 </p>
             </section>
@@ -32,7 +33,7 @@ export default function StartupListing7() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/enactus1.jpg"
+                            src="/uber.avif"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +52,7 @@ export default function StartupListing7() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Wed, 2 Apr, 6PM - 8:30PM
+                                Tue, 13 May, 5:30 PM to 7:15 PM
 
                             </p>
                         </div>
@@ -61,8 +62,9 @@ export default function StartupListing7() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Level 5, Room 5015, The Spot, University of Melbourne
-
+                                Melbourne Connect
+                                700 Swanston St, Carlton VIC 3053
+                                (Mezzanine Level)
                             </p>
                         </div>
 
@@ -71,7 +73,8 @@ export default function StartupListing7() {
                         <div className=" flex items-start space-x-3">
                             <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                University Students
+                                Students, Aspiring Founders, Engineers, AI/Tech Enthusiasts
+
 
 
                             </p>
@@ -96,7 +99,7 @@ export default function StartupListing7() {
                         </div>
 
 
-                        <a href="https://umsu.unimelb.edu.au/events/8031/7496/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://lu.ma/bkqp4gvo?tk=VJpo7n" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -115,7 +118,7 @@ export default function StartupListing7() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join BusinessOne Consulting and Enactus on April 2nd for a hands-on workshop at The Spot, UniMelb. Get practical insights into case competitions, perfect your pitching skills, and take part in a live pitch competition. Learn directly from consulting and VC experts and apply real-world business problem-solving techniques. Open to all levels!
+                        Join us for an exclusive fireside chat with Rob Skillington, co-founder and CTO of Chronosphere — a US$1.6B unicorn startup. From UniMelb to Uber, and now building one of the most powerful tools in cloud observability, Rob will share stories on startup life, Silicon Valley, technical hiring, and what it takes to scale a venture-backed company. This is a rare opportunity to learn, ask questions, and connect with other ambitious minds in tech, AI, and startups. Bonus: Rob is hiring. 👀💬
 
 
 

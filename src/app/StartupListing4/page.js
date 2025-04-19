@@ -13,10 +13,11 @@ export default function StartupListing4() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold">VCi Labs x Startup Link: Spicy Startup Trivia
+                <h2 className="text-4xl font-bold">StartSpace x Build Club & MLAI Co-working Day
+
                 </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Test your startup knowledge & spice tolerance 🌶️🍜
+                    Join Melbourne’s two biggest AI communities for a day of demos, building, and co-working at StartSpace. Whether you're deep into your AI project or just starting out, come hang out, show off what you're working on, and connect with the city's top builders. 🤖☕️
 
 
 
@@ -34,7 +35,7 @@ export default function StartupListing4() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/trivia1.jpeg"
+                            src="/BC_may.avif"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -53,7 +54,7 @@ export default function StartupListing4() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Wed, 26 Mar, 6:15PM - 8:00PM
+                                Sat, 3 May, 10:00 AM to 5:00 PM
 
                             </p>
                         </div>
@@ -63,8 +64,8 @@ export default function StartupListing4() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                The Malaysian Theatre, Glyn Davis Building, UniMelb Parkville Campus
-
+                                State Library Victoria — StartSpace
+                                328 Swanston St, Melbourne VIC 3000
                             </p>
                         </div>
 
@@ -73,7 +74,8 @@ export default function StartupListing4() {
                         <div className=" flex items-start space-x-3">
                             <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                Everyone
+                                AI Builders, Founders, Developers, Students
+
                             </p>
                         </div>
 
@@ -96,7 +98,7 @@ export default function StartupListing4() {
                         </div>
 
 
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScT-5bhkl1vu2P_dIz7-7cAflrHjYR5dIpXokvQPhG2gAgI1g/viewform" target="_blank" rel="noopener noreferrer">
+                        <a href="https://lu.ma/du0uqax1?tk=58qCfr" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -115,11 +117,7 @@ export default function StartupListing4() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join us for a fun and lighthearted evening at the Spicy Startup Trivia hosted by VCi Labs and Startup Link! Answer startup-related trivia questions—but if you miss one, your team will face the heat with spicy noodles 🌶️🍜. Correct answers? Enjoy a sip of milk to cool down 🥛.
-
-                        <br />
-                        <br />
-                        No startup knowledge required—just bring your friends and your appetite for fun! 🤩
+                        Hosted by Build Club and MLAI, this monthly co-working day brings together AI enthusiasts to work on projects, share demos, and meet like-minded builders. Kicking off with intros and optional demo sessions, followed by group lunch and focused co-working, it’s a casual yet productive way to plug into the Melbourne AI community. Held at StartSpace, State Library Victoria’s entrepreneurship hub, the space supports early-stage founders with mentoring, community, and collaboration. Open to everyone, with limited access for non-members after 2PM. Show up early, bring your laptop, and get ready to build. 💡💻
 
 
 

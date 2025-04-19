@@ -13,10 +13,11 @@ export default function StartupListing1() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold">Melbourne | AI Builder Co-working x S&C
+                <h2 className="text-4xl font-bold">Founder Breakfast Club x Sparks x IRL
+
                 </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Melbourne’s original full-day AI co-working day, plus learning & networking!
+                    Start your week the way founders should — with coffee, croissants, and great company. A curated morning gathering for founders, builders, and creative minds to connect and collaborate IRL. ☕️💡
 
                 </p>
             </section>
@@ -32,7 +33,7 @@ export default function StartupListing1() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-full mx-5 sm:mx-0 w-[300] h-[200px] sm:h-full">
                         <Image
-                            src="/s&c1.avif"
+                            src="/breakfast.avif"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +52,7 @@ export default function StartupListing1() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Fri, 21 Mar, 9AM - 5PM
+                                Tue, 22 Apr, 9:15 AM to 11:30 AM
 
                             </p>
                         </div>
@@ -61,8 +62,8 @@ export default function StartupListing1() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Stone & Chalk Melbourne Startup Hub, 121 King St, Melbourne VIC 3000
-
+                                Studley Park Boathouse
+                                1 Boathouse Rd, Kew VIC 3101 (The Conservatory)
                             </p>
                         </div>
 
@@ -71,7 +72,8 @@ export default function StartupListing1() {
                         <div className=" flex items-start space-x-3">
                             <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                Everyone
+                                Founders, Builders, Creatives
+
                             </p>
                         </div>
 
@@ -94,7 +96,7 @@ export default function StartupListing1() {
                         </div>
 
 
-                        <a href="https://lu.ma/bzs1f45f?tk=DyCEPL">
+                        <a href="https://lu.ma/amberbreakfastclub">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -113,7 +115,7 @@ export default function StartupListing1() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join us on March 21st at Stone & Chalk Melbourne Startup Hub for a full day of AI co-working with Build Club! Meet fellow builders, attend optional learning sessions including a special "Coffee & Learn" with Stef Cola, and pitch what you’re working on during Show & Tell. Stay for networking drinks afterwards!
+                        Hosted by IRL by Amber and Sparks, this intimate founder breakfast is designed to spark genuine conversations, collaborations, and micro-moments of inspiration. Whether you're scaling a startup or just getting started, expect coffee, ideas, and real connections without the awkward networking. Come early, stay open, and bring your brain (and your banter). Limited spots — RSVP essential. ⚡️🥐
 
 
                     </p>

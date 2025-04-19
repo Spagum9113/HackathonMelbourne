@@ -13,10 +13,11 @@ export default function StartupListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl font-bold mx-5">Digitalization of Qualitative Data Collection Workshop
+                <h2 className="text-4xl font-bold mx-5">Startmate Pitch Night (Melbourne)
+
                 </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Hands-on Workshop with Dr. Jose Berengueres
+                    Come see what Australia’s boldest early-stage founders have been building. A night of pitches, pizza, networking, and inspiration hosted by Startmate. 🍕🚀
 
                 </p>
             </section>
@@ -32,7 +33,7 @@ export default function StartupListing2() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/sociology.jpeg"
+                            src="/pitchnight.avif"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +52,7 @@ export default function StartupListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Thu, 27 Mar, 12PM - 1PM
+                                Thu, 8 May, 5:30 PM to 7:45 PM
 
                             </p>
                         </div>
@@ -61,8 +62,8 @@ export default function StartupListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Linkway, Level 4, Meeting Room, University of Melbourne, Parkville Campus
-
+                                Tank Stream Labs, Collins Street
+                                Level 6, 440 Collins St, Melbourne VIC 3000
                             </p>
                         </div>
 
@@ -71,7 +72,8 @@ export default function StartupListing2() {
                         <div className=" flex items-start space-x-3">
                             <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                Everyone
+                                Startup Enthusiasts, Founders, Investors, Students
+
                             </p>
                         </div>
 
@@ -89,12 +91,12 @@ export default function StartupListing2() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                FREE
+                                $12
                             </p>
                         </div>
 
 
-                        <a href="https://www.linkedin.com/events/7308270290822692865/about/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://lu.ma/startmate-pitchnight" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -113,7 +115,7 @@ export default function StartupListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join Dr. Jose Berengueres from KTH, Sweden, for a hands-on workshop on digitalizing qualitative research using the QualNotes app. Learn to manage interview guides, record interviews, and create field-based maps—all within the app. Gain practical skills to improve your research's efficiency and impact.
+                        Hosted by Startmate, this pitch night showcases founders from programs like Launch Club, Student Fellowship, Women Fellowship, and more. Expect inspiring ideas, a supportive community, and a whole lot of pizza. The evening includes founder pitches, networking, and post-event drinks at State of Grace. Whether you're building, investing, or just curious — come connect, cheer, and get inspired. 🧑‍🚀💬
 
 
 

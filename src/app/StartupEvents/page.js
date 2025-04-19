@@ -43,148 +43,176 @@ export default function StartupEvents() {
 
 
                     {/* Listing 1 */}
-                    {/* <a href="/StartupListing1" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing1" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/femalefounders2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/breakfast.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
                                 <h3 className="mb-1 text-lg font-bold">
-                                    Female Founder Pitch Night
+                                    Founder Breakfast Club
                                 </h3>
 
                                 <p className="text-gray-400 text-sm">
-                                    Tue, Mar 25, 6:00 PM
+                                    Tue, Apr 22, 9:00 AM
 
                                 </p>
 
                                 <p className="text-gray-400 text-sm">
-                                    The Commons Gipps St
+                                    Studley Park Boathouse,
+                                    Kew, Victoria
 
                                 </p>
                             </div>
 
                         </div>
-                    </a> */}
+                    </a>
 
 
 
                     {/* Listing 2 */}
-                    {/* <a href="/StartupListing2" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing2" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/femalefounders2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/howtoraise.webp" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
                                 <h3 className="mb-1 text-lg font-bold">
-                                    Female Founder Pitch Night
+                                    How to Raise your First Million
+
                                 </h3>
 
                                 <p className="text-gray-400 text-sm">
-                                    Tue, Mar 25, 6:00 PM
+                                    Tue, Apr 29, 6:00 PM
 
                                 </p>
 
                                 <p className="text-gray-400 text-sm">
-                                    The Commons Gipps St
+                                    Level: B1 UniMelb Glyn Davis Building
 
                                 </p>
                             </div>
 
                         </div>
-                    </a> */}
+                    </a>
 
 
                     {/* Listing 3 */}
-                    {/* <a href="/StartupListing3" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing3" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/imctrading1.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/next.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
                                 <h3 className="mb-1 text-lg font-bold">
-                                    IMC Trading Simulation
+                                    NEXT [Founder Day]: From Front Door To Funded
+
 
 
 
 
                                 </h3>
-                                <p className="text-gray-400 text-sm">Wed, Mar 26, 1:15 PM
+                                <p className="text-gray-400 text-sm">Wed, Apr 30, 1:00 PM
 
                                 </p>
-                                <p className="text-gray-400 text-sm">The Spot, Room 1022, University of Melbourne
+                                <p className="text-gray-400 text-sm">Cremorne Digital Hub
 
                                 </p>
                             </div>
 
 
                         </div>
-                    </a> */}
+                    </a>
 
 
                     {/* Listing 4 */}
-                    {/* <a href="/StartupListing4" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing4" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/trivia1.jpeg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/BC_may.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">Spicy Startup Trivia
+                                <h3 className="mb-1 text-lg font-bold">StartSpace x Build Club & MLAI Co-working
+
                                 </h3>
-                                <p className="text-gray-400 text-sm">Wed, Mar 26, 6:15 PM
+                                <p className="text-gray-400 text-sm">Sat, May 3, 10:00 AM
 
                                 </p>
-                                <p className="text-gray-400 text-sm">The Malaysian Theatre (Glyn Davis B121), University of Melbourne
+                                <p className="text-gray-400 text-sm">State Library Victoria
 
                                 </p>
                             </div>
 
 
                         </div>
-                    </a> */}
+                    </a>
 
 
 
 
                     {/* Listing 5 */}
-                    {/* <a href="/StartupListing5" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing5" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/sociology.jpeg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/pitchnight.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
                                 <h3 className="mb-1 text-lg font-bold">
-                                    Digitalization of Qualitative Data Collection Workshop
-                                </h3>
+                                    Startmate Pitch Night (Melbourne)                                </h3>
 
                                 <p className="text-gray-400 text-sm">
-                                    Thu, Mar 27, 12:00 PM
+                                    Thu, May 8, 5:30 PM
 
                                 </p>
 
                                 <p className="text-gray-400 text-sm">
-                                    Linkway, Level 4, Meeting Room, UniMelb Parkville Campus
-
+                                    Tank Stream Labs Melbourne, Collins Street
                                 </p>
                             </div>
 
                         </div>
-                    </a> */}
+                    </a>
 
                     {/* Listing 6 */}
-                    {/* <a href="/StartupListing6" target="_blank" rel="noopener noreferrer">
+                    <a href="/StartupListing6" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
-                            <Image src="/founderswalk.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+                            <Image src="/startspace.jpg" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
                             <div className=" p-5 ">
-                                <h3 className="mb-1 text-lg font-bold">Founders Walk (Melbourne)
+                                <h3 className="mb-1 text-lg font-bold">StartSpace Flip The Pitch
+
                                 </h3>
-                                <p className="text-gray-400 text-sm">Sat, Mar 29, 9:15 AM
+                                <p className="text-gray-400 text-sm">Tues, May 13, 4:30 PM
 
                                 </p>
-                                <p className="text-gray-400 text-sm">Carlton Gardens, 1-111 Carlton St, Carlton VIC 3053, Australia
+                                <p className="text-gray-400 text-sm">Conversation Quarter, State Library Victoria
 
                                 </p>
                             </div>
 
 
                         </div>
-                    </a> */}
+                    </a>
+
+
+
+
+
+                    {/* Listing 7 */}
+                    <a href="/StartupListing7" target="_blank" rel="noopener noreferrer">
+                        <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
+                            <Image src="/uber.avif" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
+
+                            <div className=" p-5 ">
+                                <h3 className="mb-1 text-lg font-bold">UoM to Uber to Unicorn w/ Rob Skillington
+
+                                </h3>
+                                <p className="text-gray-400 text-sm">Tues, May 13, 5:30 PM
+
+                                </p>
+                                <p className="text-gray-400 text-sm">Melbourne Connect, Parkville VIC
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </a>
 
 
 
