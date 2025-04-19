@@ -1,5 +1,8 @@
 {
-  "/EthanTrang/page": "app/EthanTrang/page.js",
-  "/Blog/page": "app/Blog/page.js",
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/StartupEvents/page": "app/StartupEvents/page.js",
+  "/page": "app/page.js",
+  "/EventListing3/page": "app/EventListing3/page.js",
+  "/EventListing2/page": "app/EventListing2/page.js",
+  "/EventListing1/page": "app/EventListing1/page.js"
 }
