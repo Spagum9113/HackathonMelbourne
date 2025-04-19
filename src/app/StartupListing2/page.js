@@ -13,10 +13,11 @@ export default function StartupListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-16 sm:pt-32">
-                <h2 className="text-4xl mx-5 font-bold">Female Founder Pitch Night
+                <h2 className="text-4xl mx-5 font-bold">How to Raise Your First Million
+
                 </h2>
                 <p className="text-gray-400 mt-5 mx-5 max-w-2xl">
-                    Celebrate female founders and innovation in Melbourne’s startup scene!
+                    A masterclass for AI startup founders, investors, and aspiring entrepreneurs — featuring raw insights from investors, founders, and fundraising experts on how to secure your first million in capital. 💰🤖
 
                 </p>
             </section>
@@ -32,7 +33,7 @@ export default function StartupListing2() {
 
                     <div className="relative border-2 border-white rounded-xl overflow-hidden max-w-full sm:w-[550px] mx-5 sm:mx-0 h-[200px] sm:h-full">
                         <Image
-                            src="/femalefounders2.png"
+                            src="/howtoraise.webp"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +52,7 @@ export default function StartupListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Tue, 25 Mar, 6PM - 8:30PM
+                                Tue, 29 Apr, 6PM to 9PM
 
                             </p>
                         </div>
@@ -61,7 +62,9 @@ export default function StartupListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                The Commons Gipps St, 38 Gipps St, Collingwood VIC 3066
+                                The Malaysian Theatre
+                                Glyn Davis Building (B1 Level), University of Melbourne
+                                Masson Rd, Parkville VIC 3010
 
                             </p>
                         </div>
@@ -80,7 +83,7 @@ export default function StartupListing2() {
                         <div className=" flex items-center space-x-3">
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
-                                In-Person
+                                AI Founders, Students, Entrepreneurs
                             </p>
                         </div>
 
@@ -89,14 +92,14 @@ export default function StartupListing2() {
                         <div className=" pb-5 flex items-center space-x-3">
                             <Image src="costIcon.svg" width={30} height={30} alt="cost icon" />
                             <p className="font-bold">
-                                From $20
+                                From $15
 
 
                             </p>
                         </div>
 
 
-                        <a href="https://www.eventbrite.com.au/e/female-founder-pitch-night-tickets-1082718994659?aff=ebdssbdestsearch" target="_blank" rel="noopener noreferrer">
+                        <a href="https://events.humanitix.com/how-to-raise-your-first-million" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -115,7 +118,7 @@ export default function StartupListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Join The Startup Network’s Female Founder Pitch Night on March 25th for a celebration of Melbourne’s boldest female entrepreneurs. Network with founders, investors, and startup enthusiasts as four early-stage female founders take the stage to pitch their ventures. Vote for your favorite pitch and connect with the innovators shaping the future of the startup ecosystem.
+                        Hosted by MLAI and Enactus, this AI startup funding masterclass is designed for founders and builders looking to raise their first million. Expect honest advice from investors, lessons from startup founders, and behind-the-scenes insights into the funding process. Powered by Boab and the Generational AI funding initiative, the event includes networking, panels, and plenty of opportunities to connect over gourmet refreshments. Whether you're pitching your first deck or just exploring the startup scene, this event is a must. 💼✨
 
 
 
