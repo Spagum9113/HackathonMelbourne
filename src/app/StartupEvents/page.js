@@ -43,7 +43,7 @@ export default function StartupEvents() {
 
 
                     {/* Listing 1 */}
-                    <a href="/StartupListing1" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/StartupListing1" target="_blank" rel="noopener noreferrer">
                         <div className="relative border-2 rounded-xl items-center overflow-hidden hover:scale-105 transition transform duration-200 ease-in-out">
                             <Image src="/femalefounders2.png" width={400} height={400} className="w-full h-[275px] object-cover rounded-lg" alt="Event Image" />
 
@@ -64,7 +64,7 @@ export default function StartupEvents() {
                             </div>
 
                         </div>
-                    </a>
+                    </a> */}
 
 
 
