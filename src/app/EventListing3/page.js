@@ -13,10 +13,11 @@ export default function EventListing2() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-16 pt-32">
-                <h2 className="text-4xl font-bold">Prosperity Trading Challenge 2025
+                <h2 className="text-4xl font-bold">Women in AI: Impact Hackathon
+
                 </h2>
                 <p className="text-gray-400 mt-5 max-w-2xl">
-                    Join IMC’s Prosperity Trading Challenge and put your coding, strategy, and analytical skills to the test! Compete on a virtual market for your share of a $50,000 prize pool and showcase your trading potential! 💹💰
+                    A one-day hackathon focused on using Artificial Intelligence to tackle gender inequality. Choose from Code or No-Code tracks and compete for prizes, mentorship, and more — no experience needed! 🤖💡
 
                 </p>
             </section>
@@ -32,7 +33,7 @@ export default function EventListing2() {
 
                     <div className="relative flex-1 border-2 border-white rounded-xl overflow-hidden">
                         <Image
-                            src="/prosperity3.png"
+                            src="/womeninai.webp"
                             alt="Event Image"
                             fill
                             className="object-cover rounded-lg"
@@ -51,7 +52,7 @@ export default function EventListing2() {
                         <div className="flex items-center space-x-3">
                             <Image src="dateIcon.svg" width={30} height={30} alt="date icon" />
                             <p className="font-bold">
-                                Mon, 7 Apr, 2025 – Mon, 21 Apr, 2025
+                                Sat, 10 May, 9AM to 6PM
 
                             </p>
                         </div>
@@ -61,7 +62,8 @@ export default function EventListing2() {
                         <div className="flex items-start space-x-3">
                             <Image src="locationIcon.svg" width={30} height={30} alt="location icon" />
                             <p className="font-bold">
-                                Online
+                                Versent Office
+                                Level 19, 8 Exhibition St, Melbourne VIC 3000
 
                             </p>
                         </div>
@@ -71,7 +73,8 @@ export default function EventListing2() {
                         <div className=" flex items-start space-x-3">
                             <Image src="openToIcon.svg" width={30} height={30} alt="open to icon icon" />
                             <p className="font-bold">
-                                Everyone
+                                University Students (Beginner to Experienced)
+
                             </p>
                         </div>
 
@@ -80,7 +83,7 @@ export default function EventListing2() {
                         <div className=" flex items-center space-x-3">
                             <Image src="formatIcon.svg" width={30} height={30} alt="format icon" />
                             <p className="font-bold">
-                                Online (Remote)
+                                In Person
                             </p>
                         </div>
 
@@ -94,7 +97,7 @@ export default function EventListing2() {
                         </div>
 
 
-                        <a href="https://prosperity.imc.com/?gad_source=1&gclid=Cj0KCQjw-e6-BhDmARIsAOxxlxXfPLeVYQ4Kiqe-nFctRRQhsirUJkvtlrVLWTjVxnIRJgX1h2xpYmAaAnPqEALw_wcB#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://events.humanitix.com/women-in-ai-impact-hackathon" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
@@ -113,7 +116,7 @@ export default function EventListing2() {
                 <div className="">
                     <h2 className="font-bold mb-3 text-xl">Event Description</h2>
                     <p className="text-gray-200 pb-2">
-                        Prosperity is a 15-day live trading simulation hosted by IMC, where university students will strategize, analyze, and code trading algorithms using Python. Compete remotely in teams of up to 5 to outperform the market and climb the leaderboard for a chance to win a share of the $50,000 prize pool. No full-time commitment is required, and all resources will be provided, including a dedicated wiki to help you succeed. The top 25 teams will receive prizes and exclusive recruitment opportunities! 📈🏆
+                        Hosted by Robogals Melbourne and DSCubed in partnership with Versent, this one-day hackathon challenges students to use AI to solve issues of gender inequality. With Code and No-Code options, workshops, all-day mentor support, free food, and a $1000 prize pool, it’s the perfect opportunity to build, learn, and make real impact. Teams of 2 to 4, or sign up solo and we’ll match you. Open to all skill levels. 🎯✨
 
                     </p>
 

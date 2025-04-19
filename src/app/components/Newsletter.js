@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function Newsletter() {
     return (
-        <div className="sm:-mt-80">
+        <div className="sm:-mt-20">
             {/* Newsletter Section */}
-            <div className="relative max-w-4xl mx-auto my-32 text-center p-8 pb-56 rounded-xl">
+            <div className="relative max-w-4xl mx-auto my-16 text-center p-8 pb-56 rounded-xl">
 
 
 
@@ -26,9 +26,7 @@ export default function Newsletter() {
                             Never again miss another Hackathon, get notified of all upcoming hackathons happening in Melbourne. No spam.
                         </p>
 
-                        {/* <button className="mt-8 bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-300 hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
-                            Keep me Updated!
-                        </button> */}
+
 
                         <div className="flex justify-center mt-8">
                             <iframe className="hover:scale-105 transition transform duration-300"

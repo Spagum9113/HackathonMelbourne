@@ -10,7 +10,7 @@ export default function EthanTrang() {
 
             {/* Intro Section */}
             <section className="flex flex-col items-center text-center mt-8 pt-20 md:mt-16 md:pt-32">
-                <h2 className="text-2xl font-bold md:text-4xl mx-10">Founders Unravelled: Ethan Trang</h2>
+                <h2 className="text-2xl font-bold md:text-4xl mx-14">Founders Unravelled: Ethan Trang</h2>
                 <p className="text-gray-400 mt-3 mx-4 text-sm md:mt-5 md:mx-5 md:text-base max-w-2xl">29th March 2025</p>
             </section>
 
