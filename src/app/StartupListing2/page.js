@@ -99,7 +99,7 @@ export default function StartupListing2() {
                         </div>
 
 
-                        <a href="https://events.humanitix.com/how-to-raise-your-first-million" target="_blank" rel="noopener noreferrer">
+                        <a href="https://events.humanitix.com/mlai-x-enactus-how-to-raise-your-first-million" target="_blank" rel="noopener noreferrer">
                             <button className="mx-auto text-black bg-white rounded-lg font-semibold py-2 px-20 whitespace-nowrap hover:bg-transparent hover:border hover:border-white hover:text-white hover:scale-105 transition transform duration-200 ease-in-out">
                                 Visit Website ‎ ➪
                             </button>
