@@ -7,13 +7,13 @@ import Newsletter from "@/app/components/Newsletter"
 
 import { humanReadableDate } from "@/app/utils/dateUtils";
 
-import { hackathonEventsSorted } from "@/app/data/eventsData"
+import { events } from "@/app/data/eventsData"
 
 
 export default async function EventListing({ params }) {
     
     const { link } = await params;
-    const currentEvent = hackathonEventsSorted.find(event => event.link === link);
+    const currentEvent = events.find(event => event.link === link);
     
     if (!currentEvent) {
         return notFound();
