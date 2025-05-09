@@ -24,17 +24,17 @@ export default function Footer() {
 
                     <div className="flex space-x-4">
                         <a href="mailto:ethanlee9113@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <Image src="mail.svg" width={30} height={30} alt="email icon" />
+                            <Image src="/mail.svg" width={30} height={30} alt="email icon" />
                         </a>
 
 
                         <a href="https://x.com/ethan_leee9113" target="_blank" rel="noopener noreferrer">
-                            <Image src="x.svg" width={30} height={30} alt="x icon" />
+                            <Image src="/x.svg" width={30} height={30} alt="x icon" />
                         </a>
 
 
                         <a href="https://www.linkedin.com/in/ethan-lee-resume/" target="_blank" rel="noopener noreferrer">
-                            <Image src="linkedin.svg" width={30} height={30} alt="linkedin icon" />
+                            <Image src="/linkedin.svg" width={30} height={30} alt="linkedin icon" />
                         </a>
 
 
